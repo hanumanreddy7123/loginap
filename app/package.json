@@ -1,18 +1,16 @@
 {
-  "name": "app",
+  "name": "app1",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "co.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon co.js "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongodb": "^4.5.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
     "nodemon": "^2.0.16"
   }
 }
